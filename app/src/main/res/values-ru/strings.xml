@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HousingApp</string>
+    <string name="favorite">Избранное</string>
+    <string name="home">Главная</string>
+    <string name="search">Поиск</string>
+    <string name="download">Скачать</string>
+    <string name="bookmarks">Избранное</string>
+    <string name="you_havent_saved_anything_yet">Вы еще ничего не добавили</string>
+    <string name="explore">Добавить</string>
+    <string name="try_again">Повторить попытку</string>
+    <string name="saved">Сохранено</string>
+    <string name="deleted">Удалено</string>
+    <string name="error_while_getting_categories">Ошибка при получении категорий</string>
+    <string name="downloading">Скачивается...</string>
+    <string name="welcome_back">С Возвращением</string>
+    <string name="login_to_continue">войдите для продолжения</string>
+    <string name="email">почта</string>
+    <string name="password">пароль</string>
+    <string name="sign_in_uppercase">ВОЙТИ</string>
+    <string name="create_new_account">Создайте Новый Аккаунт</string>
+    <string name="register_to_continue">зарегистрируйтесь для продолжения</string>
+    <string name="confirm_password">подтвердите пароль</string>
+    <string name="create_new_account_lowercase">создать новый аккаунт</string>
+    <string name="sign_up_uppercase">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="sign_in_lowercase">войти в аккаунт</string>
+    <string name="passwords_are_not_equal">Пароли не совпадают</string>
+    <string name="the_password_must_contain_at_least">Пароль должен содержать хотя бы 1 большую букву, 1 маленькую, 1 цифру и должен быть длиннее 5 символов</string>
+    <string name="failed_to_create_an_account">Не удалось создать аккаунт. Повторите попытку позже</string>
+    <string name="failed_to_sign_in_to_the_account">Не удалось войти в аккаунт. Повторите попытку позже</string>
+    <string name="email_is_empty">Поле почты не заполнено</string>
+    <string name="short_description">короткое описание</string>
+    <string name="long_description">длинное описание</string>
+    <string name="telephone_number">номер телефона</string>
+    <string name="price">цена</string>
+    <string name="image_link">ссылка на изображение</string>
+    <string name="confirm">ПОДТВЕРДИТЬ</string>
+    <string name="some_value_is_empty">какое-то введенное значение пусто</string>
+    <string name="successful">успешно</string>
+    <string name="phone_number_header">Номер телефона:</string>
+</resources>

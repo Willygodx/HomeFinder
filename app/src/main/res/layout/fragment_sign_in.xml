@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/dp24"
+    android:scrollbars="none"
+    tools:context=".presentation.view.SignInFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/sdp60"
+            android:text="@string/welcome_back"
+            android:textSize="@dimen/ssp18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/sdp4"
+            android:text="@string/login_to_continue"
+            android:textSize="@dimen/ssp14"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sdp40"
+            android:layout_marginTop="@dimen/sdp40"
+            android:background="@drawable/shape_rectangle_edittext"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="@dimen/sdp16"
+            android:textSize="@dimen/ssp14" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sdp40"
+            android:layout_marginTop="@dimen/sdp16"
+            android:background="@drawable/shape_rectangle_edittext"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:paddingHorizontal="@dimen/sdp16"
+            android:textSize="@dimen/ssp14" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sdp50"
+            android:layout_marginTop="@dimen/sdp24"
+            android:backgroundTint="?attr/colorTertiary"
+            android:fontFamily="@font/mulish_700"
+            android:text="@string/sign_in_uppercase"
+            android:textColor="@color/white"
+            android:textSize="@dimen/ssp16"
+            android:textStyle="bold"
+            app:cornerRadius="@dimen/sdp16"
+            app:rippleColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/mulish_700"
+            android:padding="@dimen/sdp16"
+            android:text="@string/create_new_account_lowercase"
+            android:textSize="@dimen/ssp14"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
